@@ -1,0 +1,11 @@
+#Exercicio12: Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58#
+print('*'*25)
+print('* CALCULO DE PESO IDEAL *')
+print('*'*25)
+print()
+print()
+nome= input('Antes de começar, qual o seu nome?')
+print()
+altura = float(input(f'Qual a sua altura(escreva com ponto final) {nome}? '))
+print()
+print('O seu peso ideal em kilos é:', (72.7*altura) - 58)
